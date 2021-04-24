@@ -13,7 +13,7 @@ export default function billing (){
 
         <center>
 
-
+         
             <div className="row container mt-5">
                 <div className="col text-left">
                     <AtomText value="Billing Info"
@@ -25,8 +25,8 @@ export default function billing (){
             </div>
 
             <div className="row container mt-3">
-
                 <div className="col-md-4 text-left">
+
                     <AtomText value = "Name"/>
 
                     <AtomInput
@@ -35,8 +35,8 @@ export default function billing (){
                     border="1px solid #DDDDDD"
                     borderRadius= "5px" 
                     width="300px"
-                    
                     />
+
                 </div>
 
                 <div className="col-md-4 text-left">
@@ -49,7 +49,7 @@ export default function billing (){
                     width="300px"
                     />
                 </div>
-                </div>
+            </div>
 
 
             <div className="row container mt-3">
@@ -65,6 +65,7 @@ export default function billing (){
                     width="300px"
                     />
                 </div>
+
                 <div className="col-md-4 text-left">
                     <AtomText value = "Keterangan"></AtomText>
                     <AtomInput
@@ -78,7 +79,7 @@ export default function billing (){
             </div>
 
             <div className="row container mt-3">
-                <div className="col text-left">
+                <div className="col-md-4 text-left">
                     <AtomText value = "Alamat">
 
                     </AtomText>
@@ -91,15 +92,7 @@ export default function billing (){
                     
                     />
 
-                </div>
-
-            </div>
-
-            <div className="row container mt-3">
-                <div className="col text-left">
-
-                </div>
-
+                </div>        
             </div>
 
 
