@@ -42,8 +42,8 @@ export default function test() {
           <div className="col">
             <img src="/beranda/img_beranda.svg" />
           </div>
-        </div>
-        <div
+      </div>
+      <div
           className="mt-5 pt-5"
           style={{ width: "100%", height: "512px", background: "#F9F9F9" }}
         >
