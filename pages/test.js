@@ -1,5 +1,5 @@
 import AtomText from "../components/atoms/text";
-import AtomButton from "../components/atom/Button";
+import AtomButton from "../components/atom/button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Button, Navbar, Nav, Form, FormControl} from "react-bootstrap";
 
