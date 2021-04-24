@@ -1,2 +1,2 @@
-export default function()
-    return "Hello";
+export default function test(){
+    return "Hello Armando";}
