@@ -47,45 +47,7 @@ export default function test() {
           className="mt-5 pt-5"
           style={{ width: "100%", height: "512px", background: "#F9F9F9" }}
         >
-          <center>
-            <div className="row container">
-              <div className="col-12 text-left">
-                <AtomText value="Forever bag" size="24px" weight="bold" />
-              </div>
-              <div className="col">
-                <MoleculeProductList
-                  image="/products/product_1.svg"
-                  name="Lavonte #A1294"
-                  category="Forever Shoes"
-                  price="$125.00"
-                />
-              </div>
-              <div className="col">
-                <MoleculeProductList
-                  image="/products/product_2.svg"
-                  name="Algolili #A1294"
-                  category="Forever Shoes"
-                  price="$45.00"
-                />
-              </div>
-              <div className="col">
-                <MoleculeProductList
-                  image="/products/product_3.svg"
-                  name="Lorevial #A1294"
-                  category="Forever Bag"
-                  price="$50.00"
-                />
-              </div>
-              <div className="col">
-                <MoleculeProductList
-                  image="/products/product_4.svg"
-                  name="Arcante #A1294"
-                  category="Forever Bag"
-                  price="$75.00"
-                />
-              </div>
-            </div>
-          </center>
+          
         </div>
       </center>
     </>
