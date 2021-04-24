@@ -26,26 +26,6 @@ export default function test() {
 
             <div className="row mt-5">
 
-              <div className="col-5">
-                <AtomButton
-                  background="#0086CF"
-                  value="Browse All Products"
-                  color="#FFF"
-                  border="none"
-                  padding="10px 20px"
-                  radius="10px"
-                />
-              </div>
-
-              <div className="col">
-                <AtomButton
-                  background="#F0F0F0"
-                  value="Follow This Board"
-                  border="none"
-                  padding="10px 20px"
-                  radius="10px"
-                />
-              </div>
             </div>
           </div>
 
