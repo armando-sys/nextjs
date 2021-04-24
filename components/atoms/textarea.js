@@ -1,4 +1,5 @@
 export default function textarea({
+    marginTop,
     width,
     background,
     border,
@@ -6,6 +7,7 @@ export default function textarea({
     return(
         <textarea
         style={{
+            marginTop:marginTop,
             background: background,
             border: border,
             borderRadius: borderRadius,

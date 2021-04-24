@@ -12,6 +12,8 @@ export default function billing (){
         <OrganismNav />
 
         <center>
+
+
             <div className="row container mt-5">
                 <div className="col text-left">
                     <AtomText value="Billing Info"
@@ -21,6 +23,7 @@ export default function billing (){
                     ></AtomText>
                 </div>   
             </div>
+
             <div className="row container mt-3">
 
                 <div className="col-md-4 text-left">
@@ -30,8 +33,9 @@ export default function billing (){
                     type="text"
                     background="#FFFFFF"
                     border="1px solid #DDDDDD"
-                    border-radius= "10px"
+                    borderRadius= "5px" 
                     width="300px"
+                    
                     />
                 </div>
 
@@ -41,7 +45,7 @@ export default function billing (){
                     type="text"
                     background="#FFFFFF"
                     border="1px solid #DDDDDD"
-                    border-radius= "10px" 
+                    borderRadius= "5px" 
                     width="300px"
                     />
                 </div>
@@ -57,7 +61,7 @@ export default function billing (){
                     type="text"
                     background="#FFFFFF"
                     border="1px solid #DDDDDD"
-                    border-radius= "10px"
+                    borderRadius= "5px"
                     width="300px"
                     />
                 </div>
@@ -67,7 +71,7 @@ export default function billing (){
                     type="text"
                     background="#FFFFFF"
                     border="1px solid #DDDDDD"
-                    border-radius= "10px"
+                    borderRadius= "5px"
                     width="300px"
                     />
                 </div>
@@ -81,10 +85,19 @@ export default function billing (){
                     <AtomTextArea
                     class="form-control"
                     width="670px"
+                    borderRadius="5px"
+                    border="1px solid #DDDDDD"
+                    background="#FFFFFF"
                     
                     />
 
-                
+                </div>
+
+            </div>
+
+            <div className="row container mt-3">
+                <div className="col text-left">
+
                 </div>
 
             </div>

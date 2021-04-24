@@ -1,6 +1,7 @@
 export default function input({
+    
     width,
-    type,
+   
     background,
     border,
     borderRadius  }){
@@ -13,6 +14,7 @@ export default function input({
             width: width,
 
         }}
+        type
         >
         </input>
     )
