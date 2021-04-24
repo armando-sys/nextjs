@@ -1,5 +1,6 @@
 import AtomText from "../components/atoms/text";
 import AtomButton from "../components/atoms/button";
+import MoleculeProductList from "../components/molecules/product_list";
 import OrganismNav from "../components/organisms/nav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Navbar, Nav, Form, FormControl } from "react-bootstrap";
@@ -52,27 +53,37 @@ export default function test() {
                 <AtomText value="Forever bag" size="24px" weight="bold" />
               </div>
               <div className="col">
-                <div className="p-4 templateProductList text-left">
-                  <img className="mb-4" src="/products/product_1.svg" />
-                  <AtomText value="Lavonte #A1294" size="14px" weight="bold" />
-                  <AtomText
-                    value="Forever Shoes"
-                    size="9px"
-                    margin="-10px 0px 20px 0px"
-                  />
-                  <div className="row">
-                    <div className="col-md-8">
-                      <AtomText value="$125.00" size="18px" weight="bold" />
-                    </div>
-                    <div className="col-md-4">
-                      <img src="/beranda/icon_cart_black.svg" />
-                    </div>
-                  </div>
-                </div>
+                <MoleculeProductList
+                  image="/products/product_1.svg"
+                  name="Lavonte #A1294"
+                  category="Forever Shoes"
+                  price="$125.00"
+                />
               </div>
-              <div className="col">product 2</div>
-              <div className="col">product 3</div>
-              <div className="col">product 4</div>
+              <div className="col">
+                <MoleculeProductList
+                  image="/products/product_2.svg"
+                  name="Algolili #A1294"
+                  category="Forever Shoes"
+                  price="$45.00"
+                />
+              </div>
+              <div className="col">
+                <MoleculeProductList
+                  image="/products/product_3.svg"
+                  name="Lorevial #A1294"
+                  category="Forever Bag"
+                  price="$50.00"
+                />
+              </div>
+              <div className="col">
+                <MoleculeProductList
+                  image="/products/product_4.svg"
+                  name="Arcante #A1294"
+                  category="Forever Bag"
+                  price="$75.00"
+                />
+              </div>
             </div>
           </center>
         </div>
