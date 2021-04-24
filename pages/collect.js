@@ -52,9 +52,9 @@ export default function test() {
               size="14px"
             />
             
-            <AtomButton value="Add to Cart"
+            <AtomButton
                   background="#0086CF"
-                  value="Follow This Board"
+                  value="Add to Cart"
                   border="none"
                   padding="10px 20px"
                   radius="10px"
