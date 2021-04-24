@@ -50,8 +50,12 @@ export default function test() {
           <center>
             <div className="row container">
               <div className="col-12 text-left">
-                <AtomText value="Forever bag" size="24px" weight="bold" />
+                <AtomText 
+                value="Forever bag"
+                size="24px"
+                weight="bold" />
               </div>
+              
               <div className="col">
                 <MoleculeProductList
                   image="/products/product_1.svg"

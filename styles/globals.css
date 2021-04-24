@@ -46,3 +46,27 @@ padding-bottom: 40px;
 width: 387px;
 height: 402px;
 }
+
+.templateSignin{
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  left: 135px;
+  top: 15px;
+  
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+  box-shadow: 0px 43px 350px rgba(0, 0, 0, 0.06), 0px 12.9632px 105.515px rgba(0, 0, 0, 0.0452747), 0px 5.38427px 43.8254px rgba(0, 0, 0, 0.0419759), 0px 1.94738px 15.8508px rgba(0, 0, 0, 0.0376014);
+  border-radius: 20px;
+
+}
+
+.templateImgSignin{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 100px;
+  top: 75px;
+}
+
