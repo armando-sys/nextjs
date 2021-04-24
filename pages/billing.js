@@ -17,7 +17,7 @@ export default function billing (){
             <div className="row container mt-5">
                 <div className="col text-left">
                     <AtomText value="Billing Info"
-                    weight="bold"                    
+                    weight="bold" fontFamily="Roboto"                    
                     ></AtomText>
                     <AtomText value="Invoice : 13.04.2020.1"                    
                     ></AtomText>
@@ -27,7 +27,10 @@ export default function billing (){
             <div className="row container mt-3">
                 <div className="col-md-4 text-left">
 
-                    <AtomText value = "Name"/>
+                    <AtomText
+                    value = "Name"
+                    fontFamily="Roboto"
+                    size="14px"/>
 
                     <AtomInput
                     type="text"
@@ -40,7 +43,10 @@ export default function billing (){
                 </div>
 
                 <div className="col-md-4 text-left">
-                    <AtomText value = "Email"/>
+                    <AtomText value = "Email"
+                    fontFamily="Roboto"
+                    size="14px"
+                    />
                     <AtomInput
                     type="text"
                     background="#FFFFFF"
@@ -54,9 +60,11 @@ export default function billing (){
 
             <div className="row container mt-3">
                 <div className="col-md-4 text-left ">
-                    <AtomText value = "Nomor Telpon">
+                    <AtomText
+                    value = "Nomor Telpon"
+                    fontFamily="Roboto"
+                    size="14px"/>
 
-                    </AtomText>
                     <AtomInput
                     type="text"
                     background="#FFFFFF"
@@ -67,7 +75,12 @@ export default function billing (){
                 </div>
 
                 <div className="col-md-4 text-left">
-                    <AtomText value = "Keterangan"></AtomText>
+                    <AtomText
+                    value = "Keterangan"
+                    fontFamily="Roboto"
+                    size="14px"
+                    />
+
                     <AtomInput
                     type="text"
                     background="#FFFFFF"
@@ -80,16 +93,18 @@ export default function billing (){
 
             <div className="row container mt-3">
                 <div className="col-md-4 text-left">
-                    <AtomText value = "Alamat">
+                    <AtomText
+                    value = "Alamat"
+                    fontFamily="Roboto"
+                    size="14px"/>
 
-                    </AtomText>
                     <AtomTextArea
                     class="form-control"
                     width="670px"
                     borderRadius="5px"
                     border="1px solid #DDDDDD"
                     background="#FFFFFF"
-                    
+                                        
                     />
 
                 </div>        

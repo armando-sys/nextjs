@@ -5,6 +5,7 @@ export default function text({
     size,
     weight,
     marginTop,
+    fontFamily,
   }) {
     return (
       <p
@@ -14,6 +15,7 @@ export default function text({
           marginTop: marginTop,
           fontSize: size,
           fontWeight: weight,
+          fontFamily: fontFamily,
         }}
       >
         {value}
