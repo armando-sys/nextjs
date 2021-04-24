@@ -1,4 +1,5 @@
 export default function textarea({
+    width,
     background,
     border,
     borderRadius}){
@@ -8,6 +9,7 @@ export default function textarea({
             background: background,
             border: border,
             borderRadius: borderRadius,
+            width: width,
         }}
         >
         </textarea>

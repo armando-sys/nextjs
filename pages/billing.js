@@ -22,43 +22,54 @@ export default function billing (){
                 </div>   
             </div>
             <div className="row container mt-3">
-                <div className="col text-left">
+
+                <div className="col-md-4 text-left">
                     <AtomText value = "Name"/>
+
                     <AtomInput
                     type="text"
                     background="#FFFFFF"
                     border="1px solid #DDDDDD"
                     border-radius= "10px"
-                    margin-right= "10px"
+                    width="300px"
                     />
                 </div>
 
-                <div className="col text-left">
+                <div className="col-md-4 text-left">
                     <AtomText value = "Email"/>
                     <AtomInput
                     type="text"
                     background="#FFFFFF"
                     border="1px solid #DDDDDD"
                     border-radius= "10px" 
+                    width="300px"
                     />
                 </div>
                 </div>
 
 
             <div className="row container mt-3">
-                <div className="col text-left md-4">
+                <div className="col-md-4 text-left ">
                     <AtomText value = "Nomor Telpon">
 
                     </AtomText>
-                    <AtomInput type="text" class="form-control" id="name">
-
-                    </AtomInput>
+                    <AtomInput
+                    type="text"
+                    background="#FFFFFF"
+                    border="1px solid #DDDDDD"
+                    border-radius= "10px"
+                    width="300px"
+                    />
                 </div>
-                <div className="col text-left md-4">
+                <div className="col-md-4 text-left">
                     <AtomText value = "Keterangan"></AtomText>
-                    <AtomInput type="text" class="form-control" id="name">
-
-                    </AtomInput>
+                    <AtomInput
+                    type="text"
+                    background="#FFFFFF"
+                    border="1px solid #DDDDDD"
+                    border-radius= "10px"
+                    width="300px"
+                    />
                 </div>
             </div>
 
@@ -67,9 +78,13 @@ export default function billing (){
                     <AtomText value = "Alamat">
 
                     </AtomText>
-                    <AtomTextArea class="form-control">
+                    <AtomTextArea
+                    class="form-control"
+                    width="670px"
+                    
+                    />
 
-                    </AtomTextArea>
+                
                 </div>
 
             </div>
