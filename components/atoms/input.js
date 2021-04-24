@@ -1,13 +1,16 @@
-export default function input({value,background, border, borderRadius}){
+export default function input({
+    type,
+    background,
+    border,
+    borderRadius}){
     return(
-        <form
+        <input
         style={{
             background: background,
             border: border,
             borderRadius: borderRadius,
         }}
         >
-            {value}
-        </form>
+        </input>
     )
 }

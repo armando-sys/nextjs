@@ -20,38 +20,50 @@ export default function billing (){
                     ></AtomText>
                 </div>   
             </div>
-            <div className="row container mt-5">
+            <div className="row container mt-3">
                 <div className="col text-left md-4">
                     <AtomText value = "Name">
 
                     </AtomText>
-                    <AtomInput type="text" class="form-control" id="name" value="test">
+                    <AtomInput type="text" class="form-control" id="name">
 
                     </AtomInput>
                 </div>
                 <div className="col text-left md-4">
                     <AtomText value = "Email"></AtomText>
-                    <AtomInput type="text" class="form-control" id="name" value="test">
+                    <AtomInput type="text" class="form-control" id="name">
 
                     </AtomInput>
                 </div>
             </div>
 
-            <div className="row container mt-5">
+            <div className="row container mt-3">
                 <div className="col text-left md-4">
                     <AtomText value = "Nomor Telpon">
 
                     </AtomText>
-                    <AtomInput type="text" class="form-control" id="name" value="test">
+                    <AtomInput type="text" class="form-control" id="name">
 
                     </AtomInput>
                 </div>
                 <div className="col text-left md-4">
                     <AtomText value = "Keterangan"></AtomText>
-                    <AtomInput type="text" class="form-control" id="name" value="test">
+                    <AtomInput type="text" class="form-control" id="name">
 
                     </AtomInput>
                 </div>
+            </div>
+
+            <div className="row container mt-3">
+                <div className="col text-left">
+                    <AtomText value = "Alamat">
+
+                    </AtomText>
+                    <AtomInput type="text" class="form-control" id="name">
+
+                    </AtomInput>
+                </div>
+
             </div>
 
 
