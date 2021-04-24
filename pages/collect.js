@@ -14,34 +14,30 @@ export default function test() {
         <div className="row container mt-5">
 
             <div className="col">
+
               <div className = "templatebag">
                 <img src="/collect/bag.svg" />
               </div>
-                
+                <div className="row container" style={{width:"85%"}}>
+                  <div class="col"><MoleculeCollect
+                  image="/collect/bag1.svg"
+                  
+                  />
+                  </div>
 
-                <div className="row container">
-                <div class="col"><MoleculeCollect
-                image="/collect/bag1.svg"
-                
-                />
+                  <div class="col"><MoleculeCollect
+                  image="/collect/bag2.svg"
+                  
+                  />
+                  </div>
+
+                  <div class="col"><MoleculeCollect
+                  image="/collect/bag3.svg"
+                  />
+                  </div>
                 </div>
-
-                <div class="col"><MoleculeCollect
-                image="/collect/bag2.svg"
-                
-                />
-                </div>
-
-                <div class="col"><MoleculeCollect
-                image="/collect/bag3.svg"
-                
-                />
-                </div>
-
-               
 
             </div>
-             </div>
 
         <div className="col text-left">
             <AtomText value="Hamlin Cellyn Tas Ransel Wanita Japan Style Big Compartment" size="30px" weight="bold" />

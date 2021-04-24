@@ -9,6 +9,11 @@ export default function billing (){
     return (
         <>
         <OrganismNav />
+
+        <center>
+
+            
+        </center>
         
         </>
     )
