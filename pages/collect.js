@@ -14,29 +14,22 @@ export default function test() {
         <div className="row container mt-5">
 
         <div className="col">
-            <img src="/beranda/img_beranda.svg" />
+            <img src="/collect/bag.svg" />
+
+            <div className="row">tes</div>
+            <div className="row">tes</div>
+            <div className="row">tes</div>
           </div>
 
           <div className="col text-left">
-            <AtomText value="Hamlin Cellyn Tas Ransel Wanita Japan Style Big Compartment" size="36px" weight="bold" />
+            <AtomText value="Hamlin Cellyn Tas Ransel Wanita Japan Style Big Compartment" size="30px" weight="bold" />
+            <AtomText value="Stock : 50"></AtomText>
+            <AtomText value="$50.00" size="20px"></AtomText>
             <AtomText
               value="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
               size="14px"
             />
-
-            <div className="row mt-5">
-
-            </div>
-          </div>
-
-          
-        </div>
-
-        <div
-          className="mt-5 pt-5"
-          style={{ width: "100%", height: "512px", background: "#F9F9F9" }}
-        >
-          
+          </div>          
         </div>
       </center>
     </>
