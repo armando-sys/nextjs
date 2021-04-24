@@ -53,10 +53,21 @@ export default function test() {
               </div>
               <div className="col">
                 <div className="p-4 templateProductList text-left">
-                  <img src="/products/product_1.svg" />
+                  <img className="mb-4" src="/products/product_1.svg" />
                   <AtomText value="Lavonte #A1294" size="14px" weight="bold" />
-                  <AtomText value="Forever Shoes" size="9px"/>
-                  <AtomText value="$125.00" size="18px" weight="bold" />
+                  <AtomText
+                    value="Forever Shoes"
+                    size="9px"
+                    margin="-10px 0px 20px 0px"
+                  />
+                  <div className="row">
+                    <div className="col-md-8">
+                      <AtomText value="$125.00" size="18px" weight="bold" />
+                    </div>
+                    <div className="col-md-4">
+                      <img src="/beranda/icon_cart_black.svg" />
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="col">product 2</div>
