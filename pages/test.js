@@ -1,32 +1,34 @@
 import AtomText from "../components/atoms/text";
-import React
+import AtomButton from "../components/atom/Button";
+import "bootstrap/dist/css/bootstrap.min.css";
+import {Button, Navbar, Nav, Form, FormControl} from "react-bootstrap";
 
-export default function test(){
+export default function test() {
     return (
-        <>
-
-<Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#link">Link</Nav.Link>
-      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>
-
-    <AtomText value = "Apa itu" size="32px"/>
-    <AtomText value = "Lorem Ipsum" size="12"px />
-
-    </>
-
+      <>
+        <Navbar style={{ background: "#0086CF" }}>
+          <Navbar.Brand href="#home">
+            <img src="/beranda/logo.svg" />
+          </Navbar.Brand>
+          <Nav className="mr-auto">
+            <Nav.Link className="text-light" href="#home">
+              Tren
+            </Nav.Link>
+            <Nav.Link className="text-light" href="#features">
+              Collection
+            </Nav.Link>
+            <Nav.Link className="text-light" href="#features">
+              Explore
+            </Nav.Link>
+            <Nav.Link className="text-light" href="#pricing">
+              About Us
+            </Nav.Link>
+          </Nav>
+          <Form inline>
+            <img className="mr-4" src="/beranda/logo_cart.svg" />
+            <img className="mr-4" src="/beranda/logo_user.svg" />
+          </Form>
+        </Navbar>
+      </>
     );
-}
+  }
