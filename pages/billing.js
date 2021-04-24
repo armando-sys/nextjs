@@ -1,6 +1,7 @@
 import AtomText from "../components/atoms/text";
 import AtomButton from "../components/atoms/button";
 import AtomInput from "../components/atoms/input";
+import AtomTextArea from "../components/atoms/textarea";
 import OrganismNav from "../components/organisms/nav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Navbar, Nav, Form, FormControl } from "react-bootstrap";
@@ -21,21 +22,28 @@ export default function billing (){
                 </div>   
             </div>
             <div className="row container mt-3">
-                <div className="col text-left md-4">
-                    <AtomText value = "Name">
-
-                    </AtomText>
-                    <AtomInput type="text" class="form-control" id="name">
-
-                    </AtomInput>
+                <div className="col text-left">
+                    <AtomText value = "Name"/>
+                    <AtomInput
+                    type="text"
+                    background="#FFFFFF"
+                    border="1px solid #DDDDDD"
+                    border-radius= "10px"
+                    margin-right= "10px"
+                    />
                 </div>
-                <div className="col text-left md-4">
-                    <AtomText value = "Email"></AtomText>
-                    <AtomInput type="text" class="form-control" id="name">
 
-                    </AtomInput>
+                <div className="col text-left">
+                    <AtomText value = "Email"/>
+                    <AtomInput
+                    type="text"
+                    background="#FFFFFF"
+                    border="1px solid #DDDDDD"
+                    border-radius= "10px" 
+                    />
                 </div>
-            </div>
+                </div>
+
 
             <div className="row container mt-3">
                 <div className="col text-left md-4">
@@ -59,9 +67,9 @@ export default function billing (){
                     <AtomText value = "Alamat">
 
                     </AtomText>
-                    <AtomInput type="text" class="form-control" id="name">
+                    <AtomTextArea class="form-control">
 
-                    </AtomInput>
+                    </AtomTextArea>
                 </div>
 
             </div>

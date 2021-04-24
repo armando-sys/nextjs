@@ -1,17 +1,15 @@
-export default function input({
-    type,
+export default function textarea({
     background,
     border,
-    borderRadius  }){
+    borderRadius}){
     return(
-        <input
+        <textarea
         style={{
             background: background,
             border: border,
             borderRadius: borderRadius,
-
         }}
         >
-        </input>
+        </textarea>
     )
 }
