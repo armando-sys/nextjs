@@ -28,19 +28,42 @@ export default function test() {
                 />
               </div>
               <div className="col">
-              <AtomButton
-                background="#F0F0F0"
-                value="Follow This Board"
-                border="none"
-                padding="10px 20px"
-                radius="10px"
-              />
+                <AtomButton
+                  background="#F0F0F0"
+                  value="Follow This Board"
+                  border="none"
+                  padding="10px 20px"
+                  radius="10px"
+                />
               </div>
             </div>
           </div>
           <div className="col">
-          <img src="/beranda/img_beranda.svg" />
+            <img src="/beranda/img_beranda.svg" />
           </div>
+        </div>
+        <div
+          className="mt-5 pt-5"
+          style={{ width: "100%", height: "512px", background: "#F9F9F9" }}
+        >
+          <center>
+            <div className="row container">
+              <div className="col-12 text-left">
+                <AtomText value="Forever bag" size="24px" weight="bold" />
+              </div>
+              <div className="col">
+                <div className="p-4 templateProductList text-left">
+                  <img src="/products/product_1.svg" />
+                  <AtomText value="Lavonte #A1294" size="14px" weight="bold" />
+                  <AtomText value="Forever Shoes" size="9px"/>
+                  <AtomText value="$125.00" size="18px" weight="bold" />
+                </div>
+              </div>
+              <div className="col">product 2</div>
+              <div className="col">product 3</div>
+              <div className="col">product 4</div>
+            </div>
+          </center>
         </div>
       </center>
     </>
