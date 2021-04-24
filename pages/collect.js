@@ -51,7 +51,18 @@ export default function test() {
               value="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
               size="14px"
             />
-            <AtomButton value="Add to Cart"></AtomButton>
+            
+            <AtomButton value="Add to Cart"
+                  background="#0086CF"
+                  value="Follow This Board"
+                  border="none"
+                  padding="10px 20px"
+                  radius="10px"
+                  color="#FFFFFF"
+                  width="bold"
+                />
+            
+            
         </div>          
         </div>
       </center>
