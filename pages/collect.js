@@ -12,6 +12,11 @@ export default function test() {
 
       <center>
         <div className="row container mt-5">
+
+        <div className="col">
+            <img src="/beranda/img_beranda.svg" />
+          </div>
+
           <div className="col text-left">
             <AtomText value="Hamlin Cellyn Tas Ransel Wanita Japan Style Big Compartment" size="36px" weight="bold" />
             <AtomText
@@ -44,9 +49,7 @@ export default function test() {
             </div>
           </div>
 
-          <div className="col">
-            <img src="/beranda/img_beranda.svg" />
-          </div>
+          
         </div>
 
         <div
