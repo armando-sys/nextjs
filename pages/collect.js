@@ -55,11 +55,12 @@ export default function test() {
             <AtomButton
                   background="#0086CF"
                   value="Add to Cart"
-                  border="none"
+                  border="none"    
                   padding="10px 20px"
                   radius="10px"
                   color="#FFFFFF"
                   width="bold"
+                  
                 />
             
             
