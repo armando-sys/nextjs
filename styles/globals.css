@@ -14,3 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.templateProductList {
+  background: #FFFFFF;
+  box-shadow: 0px 100px 133px rgba(0, 0, 0, 0.05), 0px 22.3363px 29.7073px rgba(0, 0, 0, 0.0298054), 0px 6.6501px 8.84464px rgba(0, 0, 0, 0.0201946);
+  border-radius: 10px;
+  height: 300px;
+  width: 209px;
+  border-radius: 10px;
+}
