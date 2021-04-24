@@ -16,7 +16,7 @@ export default function button({
         padding: padding,
         border: border,
         borderRadius:radius,
-        weight: weight,
+        fontWeight: weight,
         width: width,
       }}
     >

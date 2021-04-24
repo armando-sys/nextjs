@@ -86,21 +86,21 @@ export default function signIn(){
                     />
 
                     <AtomButton
-                   background="#0086CF"
-                   value="Login"
-                   border="none"    
-                   radius="10px"
-                   color="#FFFFFF"
-                   weight="bold"
-                   width="300px"
-                   padding = "5px 5px"
+                    background="#0086CF"
+                    value="Login"
+                    border="none"    
+                    radius="10px"
+                    color="#FFFFFF"
+                    weight="bold"
+                    width="300px"
+                    padding = "5px 5px"
                     />
 
                      <AtomText
-                    value="Don't have account Sign Up"
-                    size="12px"
-                    marginTop ="20px"
-                    color="#9D9D9D"
+                        value="Don't have account Sign Up"
+                        size="12px"
+                        marginTop ="20px"
+                        color="#9D9D9D"
                     /> 
 
                                       
