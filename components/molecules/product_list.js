@@ -4,7 +4,19 @@ export default function product_list({ image, name, category, price }) {
   return (
     <>
       <div className="p-4 templateProductList text-left">
-        <img className="mb-4" src={image} />
+        <div
+          className="mb-3"
+          style={{
+            width: "100%",
+            background: "red",
+            height: "156px",
+            background: `url(${image})`,
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition:"center"
+          }}
+        ></div>
+        {/*<img className="mb-4" src={image} />*/}
         <AtomText value={name} size="14px" weight="bold" />
         <AtomText value={category} size="9px" margin="-10px 0px 20px 0px" />
         <div className="row">
