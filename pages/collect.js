@@ -18,7 +18,7 @@ export default function test() {
               <div className = "templatebag">
                 <img src="/collect/bag.svg" />
               </div>
-                <div className="row container" style={{width:"85%"}}>
+                <div className="row container" style={{width:"90%"}}>
                   <div class="col"><MoleculeCollect
                   image="/collect/bag1.svg"
                   
@@ -56,6 +56,8 @@ export default function test() {
                   radius="10px"
                   color="#FFFFFF"
                   width="bold"
+                  marginTop="90px"
+
                   
                 />
             

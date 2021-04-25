@@ -7,6 +7,7 @@ export default function button({
   radius,
   weight,
   width,
+  marginTop,
  }) {
   return (
     <button
@@ -18,6 +19,7 @@ export default function button({
         borderRadius:radius,
         fontWeight: weight,
         width: width,
+        marginTop: marginTop,
       }}
     >
       {value}
