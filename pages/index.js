@@ -1,11 +1,12 @@
 import AtomText from "../components/atoms/text";
 import AtomButton from "../components/atoms/button";
+import { list_product } from "../components/variables/product";
 import MoleculeProductList from "../components/molecules/product_list";
 import OrganismNav from "../components/organisms/nav";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Navbar, Nav, Form, FormControl } from "react-bootstrap";
 
 export default function test() {
+  let products = list_product();
   return (
     <>
       <OrganismNav />
@@ -24,8 +25,7 @@ export default function test() {
                   value="Browse All Products"
                   color="#FFF"
                   border="none"
-                  padding="10px 20px"
-                  radius="10px"
+                  icon="/beranda/arrow_white.svg"
                 />
               </div>
               <div className="col">
@@ -33,8 +33,6 @@ export default function test() {
                   background="#F0F0F0"
                   value="Follow This Board"
                   border="none"
-                  padding="10px 20px"
-                  radius="10px"
                 />
               </div>
             </div>
@@ -42,52 +40,32 @@ export default function test() {
           <div className="col">
             <img src="/beranda/img_beranda.svg" />
           </div>
-      </div>
-      <div
+        </div>
+        <div
           className="mt-5 pt-5"
           style={{ width: "100%", height: "512px", background: "#F9F9F9" }}
         >
           <center>
             <div className="row container">
               <div className="col-12 text-left">
-                <AtomText 
-                value="Forever bag"
-                size="24px"
-                weight="bold" />
+                <AtomText value="Forever bag" size="24px" weight="bold" />
               </div>
-              
-              <div className="col">
-                <MoleculeProductList
-                  image="/products/product_1.svg"
-                  name="Lavonte #A1294"
-                  category="Forever Shoes"
-                  price="$125.00"
-                />
-              </div>
-              <div className="col">
-                <MoleculeProductList
-                  image="/products/product_2.svg"
-                  name="Algolili #A1294"
-                  category="Forever Shoes"
-                  price="$45.00"
-                />
-              </div>
-              <div className="col">
-                <MoleculeProductList
-                  image="/products/product_3.svg"
-                  name="Lorevial #A1294"
-                  category="Forever Bag"
-                  price="$50.00"
-                />
-              </div>
-              <div className="col">
-                <MoleculeProductList
-                  image="/products/product_4.svg"
-                  name="Arcante #A1294"
-                  category="Forever Bag"
-                  price="$75.00"
-                />
-              </div>
+              {products.map((product, index) => {
+                return (
+                  <>
+                    <div className="col-md-3">
+                      <MoleculeProductList
+                        image={product.image[0]}
+                        name={product.name}
+                        category={product.category}
+                        price={product.price}
+                        id={product.id}
+                        index={index}
+                      />
+                    </div>
+                  </>
+                );
+              })}
             </div>
           </center>
         </div>

@@ -24,51 +24,26 @@ a {
   border-radius: 10px;
 }
 
-.templateCollect{
-  background: #FFFFFF;
-  border: 1px solid #DEDEDE;
-  box-sizing: border-box;
+.templateCartList {
+  background: #F8F8F8;
   border-radius: 10px;
-  width: 116px;
-  height: 115px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+  height: 467px;
+  width: 262px;
 }
 
-.templatebag{
-background: #FFFFFF;
-border: 1px solid #DEDEDE;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 10px;
-padding-bottom: 40px;
-width: 410px;
-height: 400px;
-
-}
-
-.templateSignin{
-  position: absolute;
-  width: 800px;
-  height: 600px;
-  left: 135px;
-  top: 15px;
-  
+.templateLogin {
+  width: 1102px;
+  height: 724px;
+  margin-top:80px;
   background: #FFFFFF;
   border: 1px solid #D3D3D3;
   box-sizing: border-box;
   box-shadow: 0px 43px 350px rgba(0, 0, 0, 0.06), 0px 12.9632px 105.515px rgba(0, 0, 0, 0.0452747), 0px 5.38427px 43.8254px rgba(0, 0, 0, 0.0419759), 0px 1.94738px 15.8508px rgba(0, 0, 0, 0.0376014);
   border-radius: 20px;
-
 }
 
-.templateImgSignin{
+.iconButton {
   position: absolute;
-  width: 400px;
-  height: 400px;
-  left: 150px;
-  top: 75px;
+  right: 12px;
+  top: 9px;
 }
-

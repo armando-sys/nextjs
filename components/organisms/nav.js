@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Navbar, Nav, Form, FormControl } from "react-bootstrap";
 export default function nav() {
   return (<>

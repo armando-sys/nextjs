@@ -10,7 +10,7 @@ export default function signIn() {
         <div className="templateLogin p-5">
           <div className="row">
             <div className="col-md-6 pl-4 pr-4">
-              <img src="/beranda/login_image.svg" />
+              <img src="/beranda/signup_image.svg" style={{width:"100%", marginTop:"40px"}}/>
               <AtomText
                 value="Start your New Journey With Us"
                 size="24px"
@@ -24,11 +24,11 @@ export default function signIn() {
               />
             </div>
             <div className="col-md-6 text-left pl-3 pr-3">
-              <AtomText size="36px" weight="bold" value="Sign In" />
+              <AtomText size="36px" weight="bold" value="Sign Up" />
               <MoleculesInputForm
                 value="Username / Email"
                 height="61px"
-                customClass="mt-5"
+                customClass="mt-2"
               />
               <MoleculesInputForm
                 value="Password"
@@ -36,16 +36,14 @@ export default function signIn() {
                 height="61px"
                 customClass="mt-3"
               />
-              <div className="row mt-2 mb-3">
-                <div className="col-1">
-                  <MoleculesInputForm height="20px" type="checkbox" />
-                </div>
-                <div className="col">
-                <AtomText value="Remember Me" size="18px" color="#9D9D9D" marginTop="10px" />
-                </div>
-              </div>
-              <AtomButton value="Login" color="#FFF" width="100%" background="#0086CF" height="52px" />
-              <p className="mt-5">Don’t have account <span style={{color:"#0086CF"}}>Sign Up</span></p>
+              <MoleculesInputForm
+                value="Confirm Password"
+                type="password"
+                height="61px"
+                customClass="mt-3"
+              />
+              <AtomButton value="Login" color="#FFF" width="100%" background="#0086CF" height="52px" customClass="mt-4"/>
+              <p className="mt-4">Already Have An Account <span style={{color:"#0086CF"}}>Sign In</span></p>
             </div>
           </div>
         </div>
