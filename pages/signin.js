@@ -12,7 +12,7 @@ export default function signIn(){
             <div className="templateSignin row container">
                 
 
-                <div className="col-md-6">
+                <div className="col-md-7">
                     
                         <img className="templateImgSignin" src="/signin/signin.svg" />
                         <AtomText
@@ -39,7 +39,7 @@ export default function signIn(){
 
                 </div>
 
-                <div className="col-md-6 text-left">
+                <div className="col-md-5 text-left">
 
                     <AtomText 
                     value="Sign In"
