@@ -9,9 +9,11 @@ export default function button({
   width,
   height,
   icon,
+  onClick,
 }) {
   return (
     <button
+      onClick={onClick}
       className={customClass}
       style={{
         width: width ? width : "200px",
